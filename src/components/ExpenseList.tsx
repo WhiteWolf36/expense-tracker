@@ -1,5 +1,3 @@
-import React from "react";
-
 interface Expense {
   id: number;
   description: string;
@@ -21,7 +19,7 @@ const ExpenseList = ({ expenses, onDelete }: Props) => {
           <th>Description</th>
           <th>Amount</th>
           <th>Category</th>
-          <th></th>
+          <th>Remove Expense</th>
         </tr>
       </thead>
       <tbody>
